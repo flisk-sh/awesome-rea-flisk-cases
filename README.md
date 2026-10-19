@@ -1,5 +1,7 @@
 # Awesome REA + TDK Cases
 
+**English** | [简体中文](README.zh-CN.md)
+
 A curated collection of **reverse-engineering cases where an AI agent analyzes an app with [REA](https://github.com/morluto/rea), and [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) turns the findings into a local stack you can run.**
 
 Each case answers three questions:
@@ -22,6 +24,10 @@ Status shows how far each case has gone. Cases below are taken from write-ups in
 | [T6 online restoration](cases/t6-online-restoration.md) | Discontinued multiplayer backend | Needs verification |
 | [Pre-CU Star Wars Galaxies emulator](cases/pre-cu-swg-emulator.md) | MMO server emulator | Needs verification |
 | [The Incredible Machine in the browser](cases/incredible-machine-browser.md) | Browser puzzle game | Needs verification |
+| [H1Z1: from reverse engineering to an MMO backend](cases/h1z1-mmo-backend.md) | H1Z1 | In progress |
+| [Red Alert 2: an engine rewrite for reinforcement learning](cases/red-alert-2-rl-environment.md) | Red Alert 2 | Needs verification |
+| [Animal Jam / Burrow: client and server](cases/animal-jam-burrow-client-server.md) | Animal Jam / Burrow | Needs verification |
+| [Browser Counter-Strike: multiplayer in the browser](cases/browser-counter-strike-multiplayer.md) | Counter-Strike style multiplayer shooter | Needs verification |
 
 Add one with [CONTRIBUTING.md](CONTRIBUTING.md).
 
