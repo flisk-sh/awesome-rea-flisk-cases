@@ -1,6 +1,6 @@
 # Awesome REA + TDK Cases
 
-**English** | [简体中文](README.zh-CN.md)
+**English** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
 A curated collection of **reverse-engineering cases where an AI agent analyzes an app with [REA](https://github.com/morluto/rea), and [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) turns the findings into a local stack you can run.**
 
