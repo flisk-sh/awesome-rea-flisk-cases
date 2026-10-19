@@ -8,7 +8,23 @@ Each case answers three questions:
 2. **What did TDK build?** The local services, data, and runtime that reproduce the app's useful behavior.
 3. **What can you reuse?** The prompts and skills that made it work.
 
-> **No cases yet.** This list starts empty on purpose. Add the first one: see [CONTRIBUTING.md](CONTRIBUTING.md).
+## Cases
+
+Status shows how far each case has gone. Cases below are **ideas** taken from REA write-ups; none has a TDK build yet.
+
+| Case | Target | Status |
+| :--- | :--- | :--- |
+| [Brother scan button to NAS](cases/brother-scan-to-nas.md) | Brother scanner, SMB/FTP/S3 storage | Idea |
+| [NJFE ear camera bridge](cases/njfe-ear-camera-bridge.md) | Wi-Fi ear camera on a PC | Idea |
+| [Smart toilet control](cases/smart-toilet-desktop-control.md) | Bluetooth smart toilet | Idea |
+
+Add one with [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### Related REA-only write-ups (no TDK build)
+
+- [Open Scrantic: Johnny Castaway in Rust](https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/johnny-castaway-rust-rea.md) (REA + Claude Code)
+- [LeanREA: CLI skill vs REA MCP benchmark](https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/leanrea-cli-skill-benchmark.md) (author benchmark)
+- More REA cases: [awesome-REA-cases](https://github.com/songshikang0111/awesome-REA-cases)
 
 ## Workflow
 
@@ -29,7 +45,7 @@ Start with the prompts in [prompts/](prompts/).
 | :--- | :--- |
 | [Cases](cases/) | One file per case, from the template in [cases/_template.md](cases/_template.md) |
 | [Prompts](prompts/) | Reusable prompts for REA and TDK |
-| [Skills](skills/) | Agent skills and setup notes that help REA and TDK work together |
+| [Skills](skills/) | Agent skills, starting with [rea-to-tdk](skills/rea-to-tdk/SKILL.md) |
 
 ## Scope and legal
 
