@@ -18,7 +18,7 @@ Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/b
 Not built yet. Proposed stack:
 
 - Stack idea: `login-server`, `world-server`, `chat-service`, `asset-cdn`, `player-db` (Postgres).
-- Commands: `tdk project --yes`, `tdk resource login-server --type backend --stack mmo --yes`, `tdk resource world-server --type backend --stack mmo --yes`, `tdk resource player-db --type database --stack mmo --yes`, `tdk up mmo --dry-run`.
+- Commands: `tdk project --yes`, `tdk resource login-server --type backend --stack mmo --yes`, `tdk resource world-server --type backend --stack mmo --yes`, `tdk resource player-db --type bring-your-own --stack mmo --yes`, `tdk up mmo --dry-run`.
 
 ## How to reproduce
 

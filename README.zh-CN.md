@@ -41,6 +41,10 @@ REA（代理 + CLI/MCP） → findings.md → tdk project / tdk resource → tdk
 | [Red Alert 2 强化学习环境](cases/red-alert-2-rl-environment.md) | 即时战略游戏引擎 | 待验证 |
 | [Animal Jam / Burrow 客户端与服务器](cases/animal-jam-burrow-client-server.md) | 在线游戏客户端与服务器 | 待验证（未确认） |
 | [浏览器版 Counter-Strike](cases/browser-counter-strike-multiplayer.md) | 浏览器多人射击游戏 | 待验证 |
+| [Three Kingdoms XIV: trainer functions as an MCP server](cases/three-kingdoms-mcp-tools.md) | Romance of the Three Kingdoms XIV | Needs verification |
+| [Hearthstone on macOS: game-control agent, deck optimizer and replay review](cases/hearthstone-macos-agent.md) | Hearthstone | Needs verification |
+| [Mobile game interactions: an evidence pipeline with Codex and REA](cases/mobile-game-evidence-pipeline.md) | Mobile game | In progress |
+| [Dragon Ball Budokai: browser port with a local game server](cases/dragon-ball-budokai-browser-port.md) | Dragon Ball Budokai | Needs verification |
 
 通过 [CONTRIBUTING.md](CONTRIBUTING.md) 添加案例。
 

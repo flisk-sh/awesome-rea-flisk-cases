@@ -18,7 +18,7 @@ Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/b
 Not built yet. Proposed stack:
 
 - Stack idea: `game-server` (local replacement for research), `login-api`, `player-db`.
-- Commands: `tdk project --yes`, `tdk resource game-server --type backend --stack burrow --yes`, `tdk resource player-db --type database --stack burrow --yes`, `tdk up burrow --dry-run`.
+- Commands: `tdk project --yes`, `tdk resource game-server --type backend --stack burrow --yes`, `tdk resource player-db --type bring-your-own --stack burrow --yes`, `tdk up burrow --dry-run`.
 
 ## How to reproduce
 

@@ -18,7 +18,7 @@ Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/b
 Not built yet. Proposed stack:
 
 - Stack idea: `lobby-server`, `match-server`, `stats-db` (Postgres), all run locally.
-- Commands: `tdk project --yes`, `tdk resource lobby-server --type backend --stack t6 --yes`, `tdk resource stats-db --type database --stack t6 --yes`, `tdk up t6 --dry-run`.
+- Commands: `tdk project --yes`, `tdk resource lobby-server --type backend --stack t6 --yes`, `tdk resource stats-db --type bring-your-own --stack t6 --yes`, `tdk up t6 --dry-run`.
 
 ## How to reproduce
 

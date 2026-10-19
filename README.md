@@ -28,6 +28,10 @@ Status shows how far each case has gone. Cases below are taken from write-ups in
 | [Red Alert 2: an engine rewrite for reinforcement learning](cases/red-alert-2-rl-environment.md) | Red Alert 2 | Needs verification |
 | [Animal Jam / Burrow: client and server](cases/animal-jam-burrow-client-server.md) | Animal Jam / Burrow | Needs verification |
 | [Browser Counter-Strike: multiplayer in the browser](cases/browser-counter-strike-multiplayer.md) | Counter-Strike style multiplayer shooter | Needs verification |
+| [Three Kingdoms XIV: trainer functions as an MCP server](cases/three-kingdoms-mcp-tools.md) | Romance of the Three Kingdoms XIV | Needs verification |
+| [Hearthstone on macOS: game-control agent, deck optimizer and replay review](cases/hearthstone-macos-agent.md) | Hearthstone | Needs verification |
+| [Mobile game interactions: an evidence pipeline with Codex and REA](cases/mobile-game-evidence-pipeline.md) | Mobile game | In progress |
+| [Dragon Ball Budokai: browser port with a local game server](cases/dragon-ball-budokai-browser-port.md) | Dragon Ball Budokai | Needs verification |
 
 Add one with [CONTRIBUTING.md](CONTRIBUTING.md).
 
