@@ -10,13 +10,18 @@ Each case answers three questions:
 
 ## Cases
 
-Status shows how far each case has gone. Cases below are **ideas** taken from REA write-ups; none has a TDK build yet.
+Status shows how far each case has gone. Cases below are taken from write-ups in the awesome-REA-cases list. The status column shows what the source supports. None has a TDK build yet, and some REA claims are unverified.
 
 | Case | Target | Status |
 | :--- | :--- | :--- |
 | [Brother scan button to NAS](cases/brother-scan-to-nas.md) | Brother scanner, SMB/FTP/S3 storage | Idea |
 | [NJFE ear camera bridge](cases/njfe-ear-camera-bridge.md) | Wi-Fi ear camera on a PC | Idea |
 | [Smart toilet control](cases/smart-toilet-desktop-control.md) | Bluetooth smart toilet | Idea |
+| [Urban Terror in the browser](cases/urban-terror-browser.md) | Browser shooter (Quake III engine) | Reported, not REA |
+| [LG PlxNative Plex client](cases/lg-plxnative-plex-client.md) | LG TV media client | Reported, not REA |
+| [T6 online restoration](cases/t6-online-restoration.md) | Discontinued multiplayer backend | Needs verification |
+| [Pre-CU Star Wars Galaxies emulator](cases/pre-cu-swg-emulator.md) | MMO server emulator | Needs verification |
+| [The Incredible Machine in the browser](cases/incredible-machine-browser.md) | Browser puzzle game | Needs verification |
 
 Add one with [CONTRIBUTING.md](CONTRIBUTING.md).
 
