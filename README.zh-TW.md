@@ -2,7 +2,7 @@
 
 **[English](README.md)** | [简体中文](README.zh-CN.md) | 繁體中文
 
-一份精選的逆向工程案例合集：用 AI 代理透過 [REA](https://github.com/morluto/rea) 分析應用，再用 [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) 把分析結果變成可以在本機執行的服務堆疊。
+一份精選的逆向工程案例合集：用 AI 代理透過 [REA](https://github.com/morluto/rea) 分析應用，再用 [TDK CLI](https://github.com/flisk-sh/flisk) 把分析結果變成可以在本機執行的服務堆疊。
 
 每個案例回答三個問題：
 
