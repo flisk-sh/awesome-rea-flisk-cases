@@ -1,31 +1,31 @@
-# Awesome REA + TDK 案例
+# Awesome REA + Flisk 案例
 
 **[English](README.md)** | 简体中文 | [繁體中文](README.zh-TW.md)
 
-一份精选的逆向工程案例合集：用 AI 代理通过 [REA](https://github.com/morluto/rea) 分析应用，再用 [TDK CLI](https://github.com/flisk-sh/flisk) 把分析结果变成可以在本地运行的服务栈。
+一份精选的逆向工程案例合集：用 AI 代理通过 [REA](https://github.com/morluto/rea) 分析应用，再用 [Flisk CLI](https://github.com/flisk-sh/flisk) 把分析结果变成可以在本地运行的服务栈。
 
 每个案例回答三个问题：
 
 1. **REA 发现了什么？** 行为、接口、数据格式或二进制细节，并附上证据。
-2. **TDK 搭建了什么？** 复现应用有用行为的本地服务、数据和运行环境。
+2. **Flisk 搭建了什么？** 复现应用有用行为的本地服务、数据和运行环境。
 3. **可以复用什么？** 让这些工作成功的提示词和技能。
 
 ## 工作流程
 
 ```text
-REA（代理 + CLI/MCP） → findings.md → tdk project / tdk resource → tdk up → 运行并检查
+REA（代理 + CLI/MCP） → findings.md → flisk project / flisk resource → flisk up → 运行并检查
 ```
 
 1. 让 REA 分析你有权分析的应用或二进制文件。
 2. 把发现保存到 `findings.md`：接口、协议、数据格式和未解决的问题。
-3. 用 TDK 搭建与发现相符的服务，然后用 `tdk up` 启动。
+3. 用 Flisk 搭建与发现相符的服务，然后用 `flisk up` 启动。
 4. 把哪些有效、哪些无效记录到案例文件里。
 
 从 [prompts/](prompts/) 中的提示词开始。
 
 ## 案例
 
-下表中的状态说明来源资料支持到什么程度。这些案例都还没有 TDK 构建，部分 REA 声称尚未验证。
+下表中的状态说明来源资料支持到什么程度。这些案例都还没有 Flisk 构建，部分 REA 声称尚未验证。
 
 | 案例 | 对象 | 状态 |
 | :--- | :--- | :--- |

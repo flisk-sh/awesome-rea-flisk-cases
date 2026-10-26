@@ -1,18 +1,18 @@
-# Awesome REA + TDK Cases
+# Awesome REA + Flisk Cases
 
 **English** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
-A curated collection of **reverse-engineering cases where an AI agent analyzes an app with [REA](https://github.com/morluto/rea), and [TDK CLI](https://github.com/flisk-sh/flisk) turns the findings into a local stack you can run.**
+A curated collection of **reverse-engineering cases where an AI agent analyzes an app with [REA](https://github.com/morluto/rea), and [Flisk CLI](https://github.com/flisk-sh/flisk) turns the findings into a local stack you can run.**
 
 Each case answers three questions:
 
 1. **What did REA find?** Behavior, APIs, data formats, or binary details, with evidence.
-2. **What did TDK build?** The local services, data, and runtime that reproduce the app's useful behavior.
+2. **What did Flisk build?** The local services, data, and runtime that reproduce the app's useful behavior.
 3. **What can you reuse?** The prompts and skills that made it work.
 
 ## Cases
 
-Status shows how far each case has gone. Cases below are taken from write-ups in the awesome-REA-cases list. The status column shows what the source supports. None has a TDK build yet, and some REA claims are unverified.
+Status shows how far each case has gone. Cases below are taken from write-ups in the awesome-REA-cases list. The status column shows what the source supports. None has a Flisk build yet, and some REA claims are unverified.
 
 | Case | Target | Status |
 | :--- | :--- | :--- |
@@ -35,7 +35,7 @@ Status shows how far each case has gone. Cases below are taken from write-ups in
 
 Add one with [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Related REA-only write-ups (no TDK build)
+### Related REA-only write-ups (no Flisk build)
 
 - [Open Scrantic: Johnny Castaway in Rust](https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/johnny-castaway-rust-rea.md) (REA + Claude Code)
 - [LeanREA: CLI skill vs REA MCP benchmark](https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/leanrea-cli-skill-benchmark.md) (author benchmark)
@@ -44,12 +44,12 @@ Add one with [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Workflow
 
 ```text
-REA (agent + CLI/MCP)  →  findings.md  →  tdk project / tdk resource  →  tdk up  →  run and check
+REA (agent + CLI/MCP)  →  findings.md  →  flisk project / flisk resource  →  flisk up  →  run and check
 ```
 
 1. Point REA at the app or binary you are allowed to analyze.
 2. Save the findings in a `findings.md` file: endpoints, formats, protocols, and open questions.
-3. Use TDK to scaffold the services that match the findings, then start the stack with `tdk up`.
+3. Use Flisk to scaffold the services that match the findings, then start the stack with `flisk up`.
 4. Record what worked and what did not in a case file.
 
 Start with the prompts in [prompts/](prompts/).
@@ -59,7 +59,7 @@ Start with the prompts in [prompts/](prompts/).
 | Section | What is in it |
 | :--- | :--- |
 | [Cases](cases/) | One file per case, from the template in [cases/_template.md](cases/_template.md) |
-| [Prompts](prompts/) | Reusable prompts for REA and TDK |
+| [Prompts](prompts/) | Reusable prompts for REA and Flisk |
 | [Skills](skills/) | Agent skills, starting with [rea-to-tdk](skills/rea-to-tdk/SKILL.md) |
 
 ## Scope and legal

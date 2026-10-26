@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/t6-ai-rollback-online-restoration-report.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `lobby-server`, `match-server`, `stats-db` (Postgres), all run locally.
-- Commands: `tdk project --yes`, `tdk resource lobby-server --type backend --stack t6 --yes`, `tdk resource stats-db --type bring-your-own --stack t6 --yes`, `tdk up t6 --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource lobby-server --type backend --stack t6 --yes`, `flisk resource stats-db --type bring-your-own --stack t6 --yes`, `flisk up t6 --dry-run`.
 
 ## How to reproduce
 

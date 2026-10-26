@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/urban-terror-web.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `game-server` (dedicated server), `web-client` (WebAssembly build), `matchmaker` (lobby list).
-- Commands: `tdk project --yes`, `tdk resource game-server --type backend --stack shooter --yes`, `tdk resource web-client --type frontend --stack shooter --yes`, `tdk up shooter --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource game-server --type backend --stack shooter --yes`, `flisk resource web-client --type frontend --stack shooter --yes`, `flisk up shooter --dry-run`.
 
 ## How to reproduce
 

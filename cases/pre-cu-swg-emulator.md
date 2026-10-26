@@ -12,12 +12,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/swg-precu-ai-emulator-idea.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `login-server`, `zone-server`, `world-db` (Postgres).
-- Commands: `tdk project --yes`, `tdk resource login-server --type backend --stack swg --yes`, `tdk resource zone-server --type backend --stack swg --yes`, `tdk up swg --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource login-server --type backend --stack swg --yes`, `flisk resource zone-server --type backend --stack swg --yes`, `flisk up swg --dry-run`.
 
 ## How to reproduce
 

@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/dragon-ball-budokai-browser.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed app types and stack:
 
 - Types: `frontend` (browser game), `backend` (match and save server), `worker` (asset conversion).
-- Commands: `tdk project --yes`, `tdk resource game-web --type frontend --stack budokai --yes`, `tdk resource match-server --type backend --stack budokai --yes`, `tdk resource asset-convert --type worker --stack budokai --yes`, `tdk up budokai --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource game-web --type frontend --stack budokai --yes`, `flisk resource match-server --type backend --stack budokai --yes`, `flisk resource asset-convert --type worker --stack budokai --yes`, `flisk up budokai --dry-run`.
 
 ## How to reproduce
 

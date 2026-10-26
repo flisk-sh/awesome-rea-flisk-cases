@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/mobile-game-interaction-evidence.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed app types and stack:
 
 - Types: `backend` (evidence API), `worker` (maps recordings to interactions), `frontend` (review UI).
-- Commands: `tdk project --yes`, `tdk resource evidence-api --type backend --stack evidence --yes`, `tdk resource mapper --type worker --stack evidence --yes`, `tdk resource review-ui --type frontend --stack evidence --yes`, `tdk up evidence --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource evidence-api --type backend --stack evidence --yes`, `flisk resource mapper --type worker --stack evidence --yes`, `flisk resource review-ui --type frontend --stack evidence --yes`, `flisk up evidence --dry-run`.
 
 ## How to reproduce
 

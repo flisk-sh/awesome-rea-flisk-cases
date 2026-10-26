@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/three-kingdoms-mod-mcp.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed app types and stack:
 
 - Types: `mcp` (tool server for editor functions), `backend` (scenario store and batch jobs), `worker` (apply edits to save files).
-- Commands: `tdk project --yes`, `tdk resource tools --type mcp --stack tk14 --yes`, `tdk resource scenario-api --type backend --stack tk14 --yes`, `tdk resource batch-edit --type worker --stack tk14 --yes`, `tdk up tk14 --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource tools --type mcp --stack tk14 --yes`, `flisk resource scenario-api --type backend --stack tk14 --yes`, `flisk resource batch-edit --type worker --stack tk14 --yes`, `flisk up tk14 --dry-run`.
 
 ## How to reproduce
 

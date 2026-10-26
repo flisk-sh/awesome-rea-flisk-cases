@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/h1z1-ai-mmo-research.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `login-server`, `world-server`, `chat-service`, `asset-cdn`, `player-db` (Postgres).
-- Commands: `tdk project --yes`, `tdk resource login-server --type backend --stack mmo --yes`, `tdk resource world-server --type backend --stack mmo --yes`, `tdk resource player-db --type bring-your-own --stack mmo --yes`, `tdk up mmo --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource login-server --type backend --stack mmo --yes`, `flisk resource world-server --type backend --stack mmo --yes`, `flisk resource player-db --type bring-your-own --stack mmo --yes`, `flisk up mmo --dry-run`.
 
 ## How to reproduce
 

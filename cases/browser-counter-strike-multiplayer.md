@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/cs-browser-colleague-ai-report.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `game-server`, `web-client`, `match-lobby`.
-- Commands: `tdk project --yes`, `tdk resource game-server --type backend --stack cs --yes`, `tdk resource web-client --type frontend --stack cs --yes`, `tdk up cs --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource game-server --type backend --stack cs --yes`, `flisk resource web-client --type frontend --stack cs --yes`, `flisk up cs --dry-run`.
 
 ## How to reproduce
 

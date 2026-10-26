@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/WildweaselMS/NJFE
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `camera-bridge` (USB bridge logic), `viewer` (PC web viewer), `recorder` (saves frames).
-- Commands: `tdk project --yes`, `tdk resource camera-bridge --type backend --stack scope --yes`, `tdk up scope --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource camera-bridge --type backend --stack scope --yes`, `flisk up scope --dry-run`.
 
 ## How to reproduce
 

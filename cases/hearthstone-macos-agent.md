@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/hearthstone-macos-ai-control-report.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed app types and stack:
 
 - Types: `agent` (plays the game through a control interface), `backend` (deck optimizer API), `worker` (replay analysis and reflection notes).
-- Commands: `tdk project --yes`, `tdk resource player --type agent --stack hs --yes`, `tdk resource deck-api --type backend --stack hs --yes`, `tdk resource replay-review --type worker --stack hs --yes`, `tdk up hs --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource player --type agent --stack hs --yes`, `flisk resource deck-api --type backend --stack hs --yes`, `flisk resource replay-review --type worker --stack hs --yes`, `flisk up hs --dry-run`.
 
 ## How to reproduce
 

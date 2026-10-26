@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/incredible-machine-browser.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `game-web` (browser client), `asset-service` (serves regenerated assets), `level-db` (puzzle levels).
-- Commands: `tdk project --yes`, `tdk resource game-web --type frontend --stack puzzle --yes`, `tdk resource asset-service --type backend --stack puzzle --yes`, `tdk up puzzle --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource game-web --type frontend --stack puzzle --yes`, `flisk resource asset-service --type backend --stack puzzle --yes`, `flisk up puzzle --dry-run`.
 
 ## How to reproduce
 

@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/lg-plxnative.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `media-server` (a local Plex-compatible API stub for testing), `client-test-ui`.
-- Commands: `tdk project --yes`, `tdk resource media-server --type backend --stack tv --yes`, `tdk up tv --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource media-server --type backend --stack tv --yes`, `flisk up tv --dry-run`.
 
 ## How to reproduce
 

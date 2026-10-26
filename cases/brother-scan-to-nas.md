@@ -14,12 +14,12 @@
 
 Source case and evidence: https://github.com/aurimasniekis/go-brother-scan-to-network-server
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `scan-receiver` (UDP listener and registration), `storage-adapter` (SMB, FTP, S3, local), `web-ui` (settings).
-- Commands: `tdk project --yes`, `tdk resource scan-receiver --type backend --stack scan --yes`, `tdk resource storage --type backend --stack scan --yes`, `tdk up scan`.
+- Commands: `flisk project --yes`, `flisk resource scan-receiver --type backend --stack scan --yes`, `flisk resource storage --type backend --stack scan --yes`, `flisk up scan`.
 
 ## How to reproduce
 

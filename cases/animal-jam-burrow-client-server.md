@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/animal-jam-burrow-claude-report.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `game-server` (local replacement for research), `login-api`, `player-db`.
-- Commands: `tdk project --yes`, `tdk resource game-server --type backend --stack burrow --yes`, `tdk resource player-db --type bring-your-own --stack burrow --yes`, `tdk up burrow --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource game-server --type backend --stack burrow --yes`, `flisk resource player-db --type bring-your-own --stack burrow --yes`, `flisk up burrow --dry-run`.
 
 ## How to reproduce
 

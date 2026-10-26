@@ -10,10 +10,10 @@
 
 - <behavior, endpoint, format, protocol, with evidence link or log excerpt>
 
-## What TDK built
+## What Flisk built
 
 - Stack: <services, databases, queues>
-- Commands: `tdk project --yes`, `tdk resource <name> --type <type> --stack <stack> --yes`, `tdk up <stack>`
+- Commands: `flisk project --yes`, `flisk resource <name> --type <type> --stack <stack> --yes`, `flisk up <stack>`
 
 ## How to reproduce
 

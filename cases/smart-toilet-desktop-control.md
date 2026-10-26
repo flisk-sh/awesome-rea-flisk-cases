@@ -13,12 +13,12 @@
 
 Source case and evidence: https://x.com/thinkszyg/status/2109526361971073103
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `device-gateway` (Bluetooth bridge), `control-api` (HTTP endpoints for the desktop control), `status-ui`.
-- Commands: `tdk project --yes`, `tdk resource device-gateway --type backend --stack home --yes`, `tdk up home --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource device-gateway --type backend --stack home --yes`, `flisk up home --dry-run`.
 
 ## How to reproduce
 

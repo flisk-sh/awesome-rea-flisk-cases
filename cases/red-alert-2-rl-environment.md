@@ -13,12 +13,12 @@
 
 Source case and evidence: https://github.com/songshikang0111/awesome-REA-cases/blob/main/cases/en/red-alert-2-rl-engine.md
 
-## What TDK built
+## What Flisk built
 
 Not built yet. Proposed stack:
 
 - Stack idea: `env-server` (game engine over HTTP), `trainer` (RL loop), `metrics-db`.
-- Commands: `tdk project --yes`, `tdk resource env-server --type backend --stack rl --yes`, `tdk resource trainer --type backend --stack rl --yes`, `tdk up rl --dry-run`.
+- Commands: `flisk project --yes`, `flisk resource env-server --type backend --stack rl --yes`, `flisk resource trainer --type backend --stack rl --yes`, `flisk up rl --dry-run`.
 
 ## How to reproduce
 
