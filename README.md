@@ -60,7 +60,7 @@ Start with the prompts in [prompts/](prompts/).
 | :--- | :--- |
 | [Cases](cases/) | One file per case, from the template in [cases/_template.md](cases/_template.md) |
 | [Prompts](prompts/) | Reusable prompts for REA and Flisk |
-| [Skills](skills/) | Agent skills, starting with [rea-to-tdk](skills/rea-to-tdk/SKILL.md) |
+| [Skills](skills/) | Agent skills, starting with [rea-to-flisk](skills/rea-to-flisk/SKILL.md) |
 
 ## Scope and legal
 

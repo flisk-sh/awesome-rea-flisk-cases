@@ -1,5 +1,5 @@
 ---
-name: rea-to-tdk
+name: rea-to-flisk
 description: Turn REA reverse-engineering findings into a local Flisk CLI stack. Use when the user has findings from REA (endpoints, protocols, data formats) and wants a runnable local stack for them.
 ---
 
